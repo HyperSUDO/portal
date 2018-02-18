@@ -65,7 +65,7 @@
                 </div>
             </div>
 
-            @include('layouts._ads._carbon')
+            @include('layouts._ads._bsa-cpc')
 
             @foreach ($thread->replies() as $reply)
                 <div class="panel {{ $thread->isSolutionReply($reply) ? 'panel-success' : 'panel-default' }}">
